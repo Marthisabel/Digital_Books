@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital_Books</title>
+    <link rel="shortcut icon" href="img/imag2.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="lineados"></div>
+    <div id="header">
+        <div id="centro1">
+            <div id="logo">
+                <div id="logo-book">
+                    <img src="img/imag1.jpg" alt="">
+                <h2>Digital Books</h2>
+                <p>El aprendizaje en tus manos</p>
+                </div>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Clientes.html">Clientes</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="contenidos-paginas">
+      <div id="centro3">
+        <h2>
+          <em class="encabezados t1">Sobre</em>
+          <em class="encabezados t2">Nosotros</em>
+        </h2>
+        <p class="descripcion-pagina">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Quod voluptatem, architecto iusto alias, quas commodi aliquid 
+          ipsum quisquam, ullam provident dolorum unde magni incidunt animi 
+          eum rerum exercitationem deserunt eius?
+        </p>
+        <hr>
+
+        <div id="contenido-nosotros">
+          <p class="descripcion-pagina texto-nosotros">
+            <img src="img/imag8.webp" class="img-nosotros"  width="120" height="125">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Mollitia impedit officia, blanditiis voluptatibus fuga 
+            officiis ipsa totam excepturi unde facilis nihil maxime 
+            repellat praesentium amet tempore iusto quidem a molestias.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Mollitia impedit officia, blanditiis voluptatibus fuga 
+            officiis ipsa totam excepturi unde facilis nihil maxime 
+            repellat praesentium amet tempore iusto quidem a molestias.
+          </p>
+        </div>
+
+        <div id="filosofia">
+          <div id="mision">
+            <img src="img/ima11.jpg" class="img-filosofia" width="180" height="200">
+            <br>
+            <p class="descripcion-pagina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sequi, accusamus! Quisquam commodi neque, a nemo odio, 
+              aliquam unde tempore, optio atque cupiditate eveniet officiis 
+              consequatur saepe placeat animi mollitia. Earum.
+            </p>
+          </div>
+
+          <div id="vision">
+            <img src="img/imag5.jpg" class="img-filosofia" width="180" height="200">
+            <br>
+            <p class="descripcion-pagina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sequi, accusamus! Quisquam commodi neque, a nemo odio, 
+              aliquam unde tempore, optio atque cupiditate eveniet officiis 
+              consequatur saepe placeat animi mollitia. Earum.
+            </p>
+          </div>
+
+          <div id="valores">
+            <img src="img/imag12.jpg" class="img-filosofia" width="180" height="200">
+            <br>
+            <p class="descripcion-pagina">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sequi, accusamus! Quisquam commodi neque, a nemo odio, 
+              aliquam unde tempore, optio atque cupiditate eveniet officiis 
+              consequatur saepe placeat animi mollitia. Earum.
+            </p>
+          </div>
+        </div>
+                 
+      </div>
+
+  </div>
+
+  <div id="pie">
+    <div id="centro-pie">
+        <p>
+            (c) Todos los derechos reservados -
+            Disenado por <a href="martisaec286@gmail.com" class="contacto"
+            >Martha leon-Alvarez</a> - 2022
+        </p>
+    </div>
+</div>
+              
+</body>
+</html>
