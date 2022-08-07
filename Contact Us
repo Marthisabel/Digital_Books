@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital_Books</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/imag2.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+    <div id="linea"></div>
+    <div id="header">
+        <div id="centro1">
+            <div id="logo">
+                <div id="logo-book">
+                    <img src="img/imag1.jpg" alt="">
+                <h2>Digital Books</h2>
+                <p>Learning is in your hands</p>
+                </div>
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Nosotros.html">ABOUT US</a></li>
+                    <li><a href="Servicios.html">SERVICES</a></li>
+                    <li><a href="Clientes.html">CUSTOMERS</a></li>
+                    <li><a href="Contacto.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--form container-->
+    <section id="form-width">
+        <form id="form-container">
+            <div class="row">
+                <!--form input-->
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- logo-->
+                    <div class="logotipe d-flex justify-content-center">
+                        <a href="#" class="d-flex align-items-center">
+                            <img src="img/imag16.png" class="img-fluid">
+                            <h3 class="ubuntu">Contact Us</h3>
+                        </a>
+                    </div>
+                    <h4 class="text-center text-uppercase anton">Place your order</h4>
+                    <hr>
+
+                    <!--inputs-->
+                    <div class="inputs-form form-group">
+                        <label for="username" class="ubuntu">Name and Lastname</label>
+                        <input type="text" name="username" id="username" class="form-control mb-4 required">
+
+                        <label for="email_form" class="ubuntu">Email</label>
+                        <input type="email" name="email_form" id="email_form" class="form-control mb-4 required">
+
+                        <div class="form-group mt-2">
+                        <input type="checkbox" name="accept-terms" value="" required>
+                        <label for="accept-terms">Acepto terminos y condiciones<a href="img/imag17.png"></a></label>
+                        </div>
+
+                        <button type="submit" class="btn_mt-1 ubuntu" id="send-form">Send</button>
+
+
+                    </div>
+    
+                </div>
+                <!--form img-->
+                <div class="col-lg-6 col-md-12 col-sm-12"> 
+                    <figure class="w-100 img-form">
+                        <img src="img/imag19.webp" width="490" height="550">
+                    </figure>                  
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
