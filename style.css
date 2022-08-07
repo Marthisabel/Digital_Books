@@ -1,0 +1,408 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri light';
+}
+
+#linea{
+    width: 100%;
+    height: 5px;
+    background: #086a87;
+}
+
+#header{
+    width: 100%;
+    height: 130px;
+    background: #0b2f3a;
+}
+
+#header #centro1{
+    width: 800px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+}
+
+#header #centro1 #logo{
+    width: 200px; 
+    border:0px solid;
+    float: left;
+    margin-top: -15px;
+}
+
+#header #centro1 #logo #logo-book img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#header #centro1 #logo h2, p{
+    color: #fff;
+    margin-top: -3px;
+}
+
+#header #centro1 #logo p{
+    margin-top: -25px;
+
+}
+/*--menu---*/
+#header #menu{
+    width: 580px;
+    height: auto;
+    border: 0px solid;
+    overflow: hidden;
+    float: right;
+    margin-top: 40px;
+    text-align: right;
+}
+ 
+#header #menu ul li{
+    display: inline-block;
+}
+
+#header #menu ul li a{
+    color: #04b4ae;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 0px 4px;
+}
+
+#header #menu ul li a:hover{
+    background: #0a2a29;
+}
+
+#presentacion {
+    background-image: url(../img/imag3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    height: 530px;
+}
+
+#presentacion #centro2{
+    width: 800px;
+    margin: auto;
+}
+
+#presentacion #centro2 #izquierda {
+    width: 290px;
+    border: 0px solid;
+    float:left;
+}
+
+#presentacion #centro2 #izquierda h2{
+    color: #fff;
+    font-weight: lighter;
+}
+
+.descripcion-pres {
+    color: #fff;
+    text-align: left;
+}
+
+.boton {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border:0;
+}
+
+.boton:hover{
+    background: #e6e6e6;
+    color: #0b615e;
+}
+
+.img{
+    display: flex;
+    border-radius: 35px;
+    padding: 15px 20px;
+}
+/*--Nosotros*/
+
+#contenidos{
+    background: #f2f2f2;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#contenidos-paginas{
+    background: #f2f2f2;
+    padding: 0px 0px 20px 0px;
+}
+
+#contenidos #centro3{
+    width: 800px;
+    margin: auto;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+}
+
+#contenidos #centro3 #izquierda{
+    width: 390px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: left;
+}
+
+#contenidos #centro3 #izquierda h3{
+    color: #fff;
+}
+
+#contenidos #centro3 #izquierda .descripcion{
+    text-align: left;
+    color: #27091b;
+    width: 290px;
+}
+
+.img-servicios {
+    width: 120px; 
+    height: 100px;
+    display: inline-block;
+    padding: 2px;
+    border: 0px solid #ccc;    
+}
+
+#contenidos #centro3 #derecha{
+    width: 390px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: right;
+}
+#contenidos #centro3 #derecha h3{
+    text-align: left;
+    font-size: 22px;
+    color: #0b615e
+}
+
+#contenidos #centro3 #derecha article{
+    width: 100%;
+    height: auto; overflow: hidden;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#contenidos #centro3 #derecha article h4{
+    text-align: left;
+    font-size: 15px;
+}
+
+#contenidos #centro3 #derecha article p{
+    color: #290404; text-align: left;
+    margin-top: -22px;
+}
+
+.leer-mas{
+    padding: 4px 10px;
+    background: #086a87;
+    text-decoration: none;
+    float: left;
+    border-radius: 5px;
+    color: #fff; border:0;
+    margin-top: -15px ;
+}
+ #pie #centro-pie{
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    background: #0b2f3a;
+ }
+
+ #pie #centro-pie .contacto{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'calibri';
+ }
+
+ #pie #centro-pie .contacto:hover{
+    text-decoration: underline;
+
+ }
+
+ /*--nosotros--*/
+ #centro3{
+    width: 800px;
+    margin: auto;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.encabezados{
+    font-family: 'Arial black';
+    font-size: 30px;
+}
+
+.t1{
+    color: #2E2e2e;
+}
+
+.t2{
+    color: #0489b1;
+}
+.descripcion-pagina{
+    color: #848484;
+}
+
+.texto-nosotros {
+    text-align: left;
+}
+
+.img-nosotros {
+    float: left;
+    margin-right: 7px;
+    border-radius: 20px;
+}
+
+#hr{
+    border-top: 1px;
+}
+
+#filosofia {
+    height: auto;
+    overflow: hidden;
+}
+
+#mision, #vision, #valores{
+    width: 245px;
+    height: auto; overflow: hidden;
+    border: 0px solid #ccc;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#vision {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+/*---*/
+
+.Servicios {
+    font-family: Arial black ;
+    font-size: 20px;
+}
+
+.uno{
+    color: #424242;
+    font-size: 20px;
+}
+.dos{
+    color: #0489b1;
+    font-size: 20px;
+}
+
+#disenio{
+    width: 250px;
+    height: 300px;
+    border: 0px solid #ccc;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.web {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#clientes{
+    width: 230px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: inline-block;
+   
+}
+
+.cliente2{
+    margin: 0px 10px 0px 10px;
+}
+
+.img-clientes{
+    width: 200px;
+    height: 200px;
+    border: 0px solid #ccc;
+    padding: 2px;
+}
+.descripcion-clientes{
+    color: #6e6e6e;
+    text-decoration: none;
+    font-family: 'calibri';
+}
+
+#form-width {
+    width: 100%;
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/**general class**/
+.anton{font-family: 'Anton', sans-serif;}
+.ubuntu{font-family: 'Ubuntu', sans-serif;}
+
+/**form**/
+#form-width {width:100%;}
+#form-container{
+    width: 75%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px ;
+}
+
+#form-container .logotipe a img{
+    width: 80px;
+    height: 60px;
+}
+
+#form-container .logotipe a h3{
+    margin-left: 10px;
+    color: #212121;
+    letter-spacing: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#form-container div h4{
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #212121;
+}
+
+#form-container div hr{
+    width: 70%;
+    margin: 30px auto;
+}
+
+/**inputs**/
+#form-container .inputs-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px; 
+}
+
+#form-container .inputs-form #send-form{
+    background-color: #fecc51;
+    margin-bottom: 50px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: bold;
+}
+/**form image**/
+
+/** media query **/
+@media only screen and (max-width:647px){
+    #form-container{
+        width: 90%;
+    }
+}
